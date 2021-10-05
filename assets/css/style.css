@@ -1,0 +1,41 @@
+/* Generated with SASS */
+/* layout/breakpoints */
+/* Breakpoint Control */
+/* Self contained. All in one page. Copy and Paste*/
+/* 1. Define breakpoint variables. Sizes obtained from Bootstrap 4.6 */
+/* 2. Responsive breakpoint manager */
+/* End of responsive breakpoint manager */
+/* 3. Sample. How to use it: This is a BEM approach (Block Element Modifier based approach) */
+@media (min-width: 1400px) {
+  body {
+    background-color: red;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  body {
+    background-color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  body {
+    background-color: yellow;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  body {
+    background-color: #7ac53d;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  body {
+    background-color: #939eff;
+  }
+}
+@media (max-width: 575.98px) {
+  body {
+    background-color: pink;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
