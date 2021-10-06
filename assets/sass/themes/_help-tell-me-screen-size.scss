@@ -1,0 +1,30 @@
+.tell-me-screen-size::before {
+float: right;
+border: 1px solid black;
+padding: .5em;
+
+    @include screen-size('xx-large') {
+    background-color: red;
+    content: "Screen size: xx-large. | Usually: desktop screens";
+    }
+    @include screen-size('x-large') {
+        background-color: darkorange;
+        content: "Screen size: x-large. | Usually: most-used 13\" laptops";
+    }
+    @include screen-size('large') {
+        background-color: yellow;
+        content: "Screen size: large. | Usually: small laptops";
+    }
+    @include screen-size('medium') {
+        background-color: rgb(122, 197, 61);
+        content: "Screen size: medium. | Usually: tablets and e-readers";
+    }
+    @include screen-size('small') {
+        background-color: lightskyblue;
+        content: "Screen size: small. | Usually: smartphones horizontal-view";
+    }
+    @include screen-size('x-small') {
+        background-color: pink;
+        content: "Screen size: x-small. | Usually: smartphones";
+    }
+}
